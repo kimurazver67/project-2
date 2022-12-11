@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Roboto:wght@100;400;500;700;900&display=swap');
+.promo {
+    height: 800px;
+    background: url(/img/bg/main_bg.png) center center/ cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo .logo__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo__text {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    text-align: center;
+    color: #f9bf3b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.simple .title__big {
+    margin-top: 21px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.promo .promo__text {
+    padding: 0 13px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 22.5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.promo__text span {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #F9BF3B;
+}
+
+.promo .promo__btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    cursor: pointer;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: inset 0px 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    outline: none;
+}
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more__text {
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.more .more__img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
